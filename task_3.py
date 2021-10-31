@@ -9,3 +9,18 @@
 --- обязательно!!! усложните задачу, "отловив" и обработав исключение,
 придумайте как это сделать
 """
+
+
+str1 = 'attribute'
+str2 = 'класс'
+str3 = 'функция'
+str4 = 'type'
+
+strlist = [str1, str2, str3, str4]
+
+
+for el in strlist:
+    try:
+        print(bytes(el, 'ascii'), ' - запись в байтовом виде возможна')
+    except UnicodeEncodeError:
+        print(el, ' - невозможно записать в байтовом виде')
