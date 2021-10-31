@@ -10,3 +10,14 @@
 --- b'class' - используйте маркировку b''
 --- используйте списки и циклы, не дублируйте функции
 """
+str1 = b'class'
+str2 = b'function'
+str3 = b'method'
+
+strlist = [str1, str2, str3]
+
+for el in strlist:
+    print(el)
+    print(type(el))
+    print(len(el))
+    print('-----------')
