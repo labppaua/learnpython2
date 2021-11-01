@@ -23,3 +23,16 @@
 
 НАРУШЕНИЕ обозначенных условий - задание не выполнено!!!
 """
+from chardet import detect
+
+with open('test_file.txt', 'rb') as file:
+    contentb = file.read()
+detected = detect(contentb)
+encoding = detected['encoding']
+content = contentb.decode(encoding)
+with open('test_utf8.txt', 'w', encoding='utf-8') as file:
+    file.write(content)
+
+with open('test_utf8.txt', 'r', encoding='utf-8') as file:
+    content = file.read()
+print(content)
