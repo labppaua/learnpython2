@@ -9,7 +9,6 @@
 --- используйте списки и циклы, не дублируйте функции
 """
 
-
 str1 = 'разработка'
 str2 = 'администрирование'
 str3 = 'protocol'
@@ -18,9 +17,9 @@ str4 = 'standard'
 strlist = [str1, str2, str3, str4]
 
 for el in strlist:
-    print(el,' - исходное')
+    print(el, ' - исходное')
     enc = el.encode('utf-8')
-    print(enc,' - кодированное')
+    print(enc, ' - кодированное')
     cod = enc.decode('utf-8')
-    print(cod,' - декодированное')
+    print(cod, ' - декодированное')
     print('----------------')
