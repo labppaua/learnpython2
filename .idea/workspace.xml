@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97751a5f-7832-47a5-934c-0925553e8f22" name="Changes" comment="task6 complited">
-      <change afterPath="$PROJECT_DIR$/task_1/data_report.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/info_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/info_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/info_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2/orders.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3/file.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3/main.py" afterDir="false" />
+    <list default="true" id="adc427f3-e747-4a41-9e19-99c89ea682c1" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Урок 2. Практическое задание.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Урок 2. Практическое задание.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_3/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="lesson1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,9 +36,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/README.md" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/README.md" />
   </component>
-  <component name="RunManager" selected="Python.task_2">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Урок 2. Практическое задание" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,19 +61,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="learnpython2" />
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Урок 2. Практическое задание" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_2/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,19 +82,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="learnpython2" />
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Урок 2. Практическое задание" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task_1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_1/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,6 +209,20 @@
       <option name="docutils_open_in_browser" value="false" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="Урок 2. Практическое задание" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <module name="Урок 2. Практическое задание" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.task_6" />
         <item itemvalue="Python.task_5" />
         <item itemvalue="Python.task_4" />
-        <item itemvalue="Python.task_3" />
-        <item itemvalue="Python.task_2" />
       </list>
     </recent_temporary>
   </component>
