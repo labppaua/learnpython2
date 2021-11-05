@@ -37,7 +37,6 @@ os_code_list, os_type_list. В этой же функции создать гл�
 ПРОШУ ВАС НЕ УДАЛЯТЬ СЛУЖЕБНЫЕ ФАЙЛЫ TXT И ИТОГОВЫЙ ФАЙЛ CSV!!!
 """
 
-
 import re
 import csv
 
@@ -51,32 +50,29 @@ def get_data():
     os_type_list = []
     main_data = []
 
+    os_prod_reg = re.compile('^Изготовитель системы:.*$')
+    os_name_reg = re.compile('^Название ОС:.*$')
+    os_code_reg = re.compile('^Код продукта:.*$')
+    os_type_reg = re.compile('^Тип системы:.*$')
+
     for i in range(1, 4):
-        file_obj = open(f'info_{i}.txt')
-        data = file_obj.read()
+        with open('info_{}.txt'.format(i), 'r') as infile:
+            for line in infile:
+                if re.search(os_prod_reg, line):
+                    os_prod_list.append((line.split(':')[1]).strip())
+                if re.search(os_name_reg, line):
+                    os_name_list.append((line.split(':')[1]).strip())
+                if re.search(os_code_reg, line):
+                    os_code_list.append((line.split(':')[1]).strip())
+                if re.search(os_type_reg, line):
+                    os_type_list.append((line.split(':')[1]).strip())
 
-        # Получаем список изготовителей системы
-        os_prod_reg = re.compile(r'Изготовитель системы:\s*\S*')
-        os_prod_list.append(os_prod_reg.findall(data)[0].split()[2])
-
-        # Название ОС
-        os_name_reg = re.compile(r'Windows\s\S*')
-        os_name_list.append(os_name_reg.findall(data)[0])
-
-        # Код продукта
-        os_code_reg = re.compile(r'Код продукта:\s*\S*')
-        os_code_list.append(os_code_reg.findall(data)[0].split()[2])
-
-        # Тип системы
-        os_type_reg = re.compile(r'Тип системы:\s*\S*')
-        os_type_list.append(os_type_reg.findall(data)[0].split()[2])
-
-    headers = ['Изготовитель системы', 'Название ОС', 'Код продукта', 'Тип системы']
+    headers = ['Номер', 'Изготовитель системы', 'Название ОС', 'Код продукта', 'Тип системы']
     main_data.append(headers)
 
     j = 1
-    for i in range(0, 3):
-        row_data = []
+    for i in range(0, len(os_prod_list)):
+        row_data = list()
         row_data.append(j)
         row_data.append(os_prod_list[i])
         row_data.append(os_name_list[i])

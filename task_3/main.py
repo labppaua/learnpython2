@@ -36,25 +36,3 @@ with open("file_2.yaml", 'r', encoding='utf-8') as f_out:
     DATA_OUT = yaml.load(f_out, Loader=yaml.SafeLoader)
 
 print(DATA_IN == DATA_OUT)
-
-
-
-
-
-
-
-
-
-
-
-
-import socket
-
-obj_sock = socket.socket()
-
-# bytes ->
-obj_sock.sendto(var, ())
-
-#close
-
-клиент 1) 2)
