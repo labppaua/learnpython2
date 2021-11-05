@@ -10,11 +10,13 @@
 
 import subprocess
 import chardet
+import platform
 
-addrlist = ["yandex.ru", "youtube.com"]
+addrlist = ['yandex.ru', 'youtube.com']
+param = '-n' if platform.system().lower() == 'windows' else '-c'
 for ip in addrlist:
-    ping = subprocess.Popen('ping ' + ip, stdout=subprocess.PIPE)
-    for str in ping.stdout:
+    S_ping = subprocess.Popen(['ping', ip, param, '3'], stdout=subprocess.PIPE)
+    for str in S_ping.stdout:
         output = chardet.detect(str)
         line = str.decode(output['encoding']).encode('utf-8')
         print(line.decode('utf-8'))
