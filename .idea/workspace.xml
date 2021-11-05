@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adc427f3-e747-4a41-9e19-99c89ea682c1" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/task_2/orders_1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2/orders_2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3/file_2.yaml" afterDir="false" />
+    <list default="true" id="adc427f3-e747-4a41-9e19-99c89ea682c1" name="Changes" comment="test2">
+      <change afterPath="$PROJECT_DIR$/task_1/data_report2.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2/orders.json" beforeDir="false" afterPath="$PROJECT_DIR$/task_2/orders.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2/orders_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/task_2/orders_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2/orders_2.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/task_3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_3/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +40,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/README.md" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (2)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Урок 2. Практическое задание" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,9 +148,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.task_6" />
         <item itemvalue="Python.task_5" />
       </list>
@@ -162,7 +162,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="adc427f3-e747-4a41-9e19-99c89ea682c1" name="Changes" comment="test" />
+      <changelist id="adc427f3-e747-4a41-9e19-99c89ea682c1" name="Changes" comment="test2" />
       <created>1580966649963</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
