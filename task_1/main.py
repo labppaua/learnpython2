@@ -87,7 +87,7 @@ def write_to_csv(out_file):
     """Запись данных в csv"""
 
     main_data = get_data()
-    with open(out_file, 'w', encoding='utf-8') as file:
+    with open(out_file, 'w',  newline='', encoding='utf-8') as file:
         writer = csv.writer(file, quoting=csv.QUOTE_NONNUMERIC)
         for row in main_data:
             writer.writerow(row)

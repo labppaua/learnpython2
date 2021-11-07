@@ -22,10 +22,10 @@ ASCII(например, €);
 import yaml
 
 DATA_IN = {'items': ['computer', 'printer', 'keyboard', 'mouse'],
-           'items_ptice': {'computer': '200€-1000€',
-                           'keyboard': '5€-50€',
-                           'mouse': '4€-7€',
-                           'printer': '100€-300€'},
+           'items_ptice': {'computer': '200\u20ac-1000\u20ac',
+                           'keyboard': '5\u20ac-50\u20ac',
+                           'mouse': '4\u20ac-7\u20ac',
+                           'printer': '100\u20ac-300\u20ac'},
            'items_quantity': 4,
            }
 
